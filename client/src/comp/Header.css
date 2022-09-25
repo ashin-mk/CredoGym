@@ -1,0 +1,25 @@
+#Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(202, 195, 199);
+    height: 50px;
+}
+#Header div{
+    margin:10px 0 0 130px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style:oblique;
+    color: rgb(6, 100, 103);
+    font-size: 24px;
+}
+#Header button{
+    width: 100px;
+    background-color: azure;
+    border-style: none;
+    font-size: 15px;
+}
+
+#Header button:hover{
+background-color: crimson;
+cursor: pointer;
+}

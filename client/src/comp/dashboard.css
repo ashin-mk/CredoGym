@@ -1,0 +1,56 @@
+#Dashboardpage{
+    background-color: rgb(54, 43, 49);
+    height: 100vh;
+    
+}
+.dashboard{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.card{
+    margin: 20px;
+    width: 1000px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-details{
+    display: flex;
+    flex: 1;
+    margin: 0px 35px;
+    justify-content: space-between;
+    color: rgb(245, 251, 251);
+}
+.card div p:nth-of-type(1){
+    color: black;
+    font-size: 17px;
+}
+.card-details div button{
+    margin: 33px 13px 13px 13px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 6px;
+    background-color: rgb(191, 45, 74);
+    color: rgb(171, 186, 200);
+}
+.card-details div button:hover{
+    background-color: rgb(8, 149, 102);
+    color: black;
+box-shadow: 2px 2px 2px;
+cursor: pointer;
+}
+.img{
+    height: 70px;
+    width:70px;
+    margin-top: 10px;
+}
+#loading{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    line-height: 50vh;
+    font-size: 25px;
+    color: aliceblue;
+}

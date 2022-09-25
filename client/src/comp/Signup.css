@@ -1,0 +1,52 @@
+#Signup{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+#Cardsignup{
+    background-color: burlywood;
+    border-radius: 5px;
+    margin-top: 15vh;
+    padding: 20px;
+    box-shadow: 1px 4px 8px 0px;
+}
+#Cardsignup div{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#Cardsignup div input{
+  background-color: rgb(228, 198, 158);
+  border-style: none;
+  border-radius: 5px;
+  margin: 3px 0 0 10px;
+}
+#buttonsignup{
+    background-color: crimson;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 135px;
+    color: aliceblue;
+    padding: 5px;
+}
+#buttonsignup:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#CredoGymS{
+font-style: italic;
+background-color: cornflowerblue;
+border-radius: 38px 12px 38px  12px;
+padding: 5px;
+position: absolute;
+top: 60px;
+box-shadow: 0px 4px 4px 0px;
+}

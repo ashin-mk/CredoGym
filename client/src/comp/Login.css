@@ -1,0 +1,47 @@
+#Login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    align-items: center;
+    vertical-align: middle;
+}
+#cardlogin{
+ margin: 20vh;
+background-color: burlywood;
+border-radius: 10px;
+padding: 30px 0;
+box-shadow: 1px 4px 8px 0px;
+}
+#cardlogin div{
+    display: flex;
+    margin:30px 50px;
+    justify-content: space-between;
+}
+#cardlogin div input{
+   background-color: rgb(247, 214, 172);
+   border-style: none;
+   border-radius: 5px;
+   margin:3px 0 0 20px;
+}
+#buttonlogin{
+    background-color: crimson;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 143px;
+    border-style: none;
+    color: aliceblue;
+}
+#buttonlogin:hover{
+background-color: cadetblue;
+}
+#CredoGym{
+    font-style: italic;
+    background-color: cornflowerblue;
+    border-radius: 38px 12px 38px  12px;
+    padding: 5px;
+    position: absolute;
+    top: 88px;
+    box-shadow: 0px 4px 4px 0px;
+    }
+    
